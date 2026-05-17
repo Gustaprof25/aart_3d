@@ -66,10 +66,10 @@ a{
 }
 
 .logo{
-  width: 180px;
+  width: 280px;
   margin: 0 auto 30px;
-  border-radius: 50%;
-  box-shadow: 0 15px 40px rgba(0,0,0,.4);
+  /* border-radius: 50%;
+  box-shadow: 0 15px 40px rgba(0,0,0,.4); */
 }
 
 .hero h1{
