@@ -195,9 +195,11 @@ a {
 
 /* GALERIA (Mantida transparente para o fundo espacial aparecer e a onda destacar!) */
 
-.galeria-section{
-    margin-top: 100px;;
+.galeria-section {
+    margin-top: 100px;
+    ;
 }
+
 .gallery {
     position: relative;
     padding: 180px 0 120px 0 !important;
@@ -422,7 +424,7 @@ a {
 /* PERSONALIZADO */
 /* ===================== */
 
-.personalizado{
+.personalizado {
     position: relative;
     padding: 120px 0;
     overflow: hidden;
@@ -430,7 +432,7 @@ a {
 
 /* CONTAINER */
 
-.personalizado .container{
+.personalizado .container {
     width: 95%;
     max-width: 1600px;
     margin: auto;
@@ -438,7 +440,7 @@ a {
 
 /* CARD */
 
-.personalizado-box{
+.personalizado-box {
 
     width: 100%;
 
@@ -452,29 +454,27 @@ a {
     border-radius: 38px;
 
     background:
-    linear-gradient(
-        135deg,
-        #33479c 0%,
-        #09297c 45%,
-        #4a5b83 100%
-    );
+        linear-gradient(135deg,
+            #33479c 0%,
+            #09297c 45%,
+            #4a5b83 100%);
 
     box-shadow:
-    0 30px 80px rgba(0,0,0,.25);
+        0 30px 80px rgba(0, 0, 0, .25);
 
     overflow: hidden;
 }
 
 /* COLUNA TEXTO */
 
-.personalizado-info{
+.personalizado-info {
     width: 45%;
     flex-shrink: 0;
 }
 
 /* TÍTULO */
 
-.personalizado-title{
+.personalizado-title {
 
     font-size: 4.2rem;
     line-height: 1;
@@ -486,14 +486,12 @@ a {
     margin-bottom: 25px;
 }
 
-.personalizado-title span{
+.personalizado-title span {
 
     background:
-    linear-gradient(
-        45deg,
-        #25d8ff,
-        #13c4d8
-    );
+        linear-gradient(45deg,
+            #25d8ff,
+            #13c4d8);
 
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -501,9 +499,9 @@ a {
 
 /* SUBTÍTULO */
 
-.personalizado-subtitle{
+.personalizado-subtitle {
 
-    color: rgba(255,255,255,.68);
+    color: rgba(255, 255, 255, .68);
 
     font-size: 1.1rem;
 
@@ -514,13 +512,13 @@ a {
 
 /* FORM */
 
-.personalizado form{
+.personalizado form {
     width: 55%;
 }
 
 /* LABEL */
 
-.form-label{
+.form-label {
 
     display: block;
 
@@ -533,7 +531,7 @@ a {
 
 /* INPUT */
 
-.form-control{
+.form-control {
 
     width: 100%;
 
@@ -541,9 +539,9 @@ a {
 
     border-radius: 18px;
 
-    border: 1px solid rgba(255,255,255,.08);
+    border: 1px solid rgba(255, 255, 255, .08);
 
-    background: rgba(255,255,255,.03);
+    background: rgba(255, 255, 255, .03);
 
     padding: 0 22px;
 
@@ -558,7 +556,7 @@ a {
 
 /* TEXTAREA */
 
-textarea.form-control{
+textarea.form-control {
 
     min-height: 180px;
 
@@ -569,26 +567,26 @@ textarea.form-control{
 
 /* PLACEHOLDER */
 
-.form-control::placeholder{
-    color: rgba(255,255,255,.35);
+.form-control::placeholder {
+    color: rgba(255, 255, 255, .35);
 }
 
 /* FOCUS */
 
-.form-control:focus{
+.form-control:focus {
 
     border-color: #13c4d8;
 
-    background: rgba(255,255,255,.05);
+    background: rgba(255, 255, 255, .05);
 
     box-shadow:
-    0 0 0 4px rgba(19,196,216,.12);
+        0 0 0 4px rgba(19, 196, 216, .12);
 }
 
 /* BOTÃO */
 
-.personalizado .btn{
-
+.personalizado .btn {
+S
     width: 100%;
 
     height: 62px;
@@ -600,11 +598,9 @@ textarea.form-control{
     margin-top: 10px;
 
     background:
-    linear-gradient(
-        45deg,
-        #ffb100,
-        #ff7b00
-    );
+        linear-gradient(45deg,
+            #ffb100,
+            #ff7b00);
 
     color: white;
 
@@ -617,19 +613,19 @@ textarea.form-control{
     transition: .3s;
 }
 
-.personalizado .btn:hover{
+.personalizado .btn:hover {
 
     transform: translateY(-4px);
 
     box-shadow:
-    0 20px 40px rgba(255,123,0,.35);
+        0 20px 40px rgba(255, 123, 0, .35);
 }
 
 /* RESPONSIVO */
 
-@media(max-width: 1100px){
+@media(max-width: 1100px) {
 
-    .personalizado-box{
+    .personalizado-box {
 
         flex-direction: column;
 
@@ -639,18 +635,18 @@ textarea.form-control{
     }
 
     .personalizado-info,
-    .personalizado form{
+    .personalizado form {
         width: 100%;
     }
 
-    .personalizado-title{
+    .personalizado-title {
 
         font-size: 3rem;
 
         text-align: center;
     }
 
-    .personalizado-subtitle{
+    .personalizado-subtitle {
 
         text-align: center;
 
@@ -658,31 +654,32 @@ textarea.form-control{
     }
 }
 
-@media(max-width: 768px){
+@media(max-width: 768px) {
 
-    .personalizado{
+    .personalizado {
         padding: 80px 0;
     }
 
-    .personalizado-box{
+    .personalizado-box {
 
         padding: 35px 22px;
 
         border-radius: 28px;
     }
 
-    .personalizado-title{
+    .personalizado-title {
         font-size: 2.2rem;
     }
 
-    .form-control{
+    .form-control {
         height: 56px;
     }
 
-    textarea.form-control{
+    textarea.form-control {
         min-height: 140px;
     }
 }
+
 /* ===================== */
 /* FOOTER */
 /* ===================== */
