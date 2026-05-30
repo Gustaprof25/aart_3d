@@ -32,6 +32,8 @@ a {
     text-decoration: none;
 }
 
+
+
 /* CONTAINER */
 
 .container {
@@ -244,7 +246,7 @@ margin-bottom: 50px;
 .cta p {
     margin-bottom: 35px;
     font-size: 1.1rem;
-    color: white;
+    color: black;
 }
 
 /* RESPONSIVO */
@@ -518,7 +520,7 @@ margin-bottom: 50px;
 
 .personalizado-subtitle {
 
-    color: white;
+    color: white !important;
 
     font-size: 1.1rem;
 
@@ -934,4 +936,102 @@ textarea.form-control {
     .wave-transition svg {
         height: 40px;
     }
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.galeria-title,
+.personalizado-title {
+    font-family: 'Baloo 2', cursive;
+    font-weight: 700;
+}
+
+/* ==========================
+   HEADER CATÁLOGO
+========================== */
+
+.catalogo-header {
+
+    position: absolute;
+    top: 0;
+    z-index: 1000;
+
+    /* background: rgba(255,255,255,0.95); */
+
+    backdrop-filter: blur(10px);
+
+    padding: 15px 0;
+
+    border-bottom: 1px solid rgba(0,0,0,.08);
+
+}
+
+.catalogo-logo img {
+
+    width: 180px;
+    height: auto;
+
+    transition: .3s;
+
+}
+
+.catalogo-logo img:hover {
+
+    transform: scale(1.05);
+
+}
+
+/* ==========================
+   HERO
+========================== */
+
+.catalogo-hero {
+
+    padding: 80px 0 50px;
+
+}
+
+.catalogo-hero h1 {
+
+    font-size: 3rem;
+    font-weight: 700;
+
+}
+
+.catalogo-hero p {
+
+    font-size: 1.2rem;
+    opacity: .8;
+
+}
+
+/* ==========================
+   MOBILE
+========================== */
+
+@media (max-width: 768px) {
+
+    .catalogo-logo img {
+
+        width: 60px;
+
+    }
+
+    .catalogo-hero h1 {
+
+        font-size: 2rem;
+
+    }
+
+    .catalogo-header .btn {
+
+        font-size: .9rem;
+        padding: 8px 14px;
+
+    }
+
 }
