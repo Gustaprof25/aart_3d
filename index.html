@@ -145,7 +145,6 @@
 
     </section>
 
-
     <!-- GALERIA DE PRODUTOS -->
     <section id="galeria" class="galeria-section py-5">
 
@@ -670,7 +669,7 @@
 
             <div class="cookie-icon">
                 <i class="fa-solid fa-cookie-bite"></i>
-            </div>s
+            </div>
 
             <div class="cookie-text">
 
@@ -768,34 +767,7 @@
 
         document.getElementById('year').innerHTML = new Date().getFullYear();
     </script>
-    <script>
-        const cookieBanner =
-            document.getElementById('cookie-banner');
 
-        const acceptCookies =
-            document.getElementById('accept-cookies');
-
-        if (!localStorage.getItem('aartCookiesAccepted')) {
-
-            setTimeout(() => {
-
-                cookieBanner.classList.add('show');
-
-            }, 1000);
-
-        }
-
-        acceptCookies.addEventListener('click', () => {
-
-            localStorage.setItem(
-                'aartCookiesAccepted',
-                'true'
-            );
-
-            cookieBanner.classList.remove('show');
-
-        });
-    </script>
 </body>
 
 </html>
